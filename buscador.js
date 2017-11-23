@@ -1,8 +1,8 @@
 (function(){
 	'use strict';
 	angular
-		.module('mundoApp')
-		.component('mfSearch', {
+		.module('nombreApp')
+		.component('czSearch', {
 			templateUrl: 'componentes/acceso-rapido/buscador.html',
 			controller: buscar,
       bindings: {
