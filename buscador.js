@@ -52,7 +52,7 @@
 			if(word == null) return "js20a3k4jsjas2asdwf";
 			var src = ['á', 'é', 'í', 'ó', 'ú'];
       var dest = ['a', 'e', 'i', 'o', 'u'];
-			for(var i = 0; i < word.length; i++){
+			for(var i = 0; i < src.length; i++){
 				word = word.toLowerCase().replace(src[i], dest[i])
 			}
 			return word.toString();
